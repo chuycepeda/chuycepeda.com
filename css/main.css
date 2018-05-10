@@ -34,7 +34,8 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
-    position: relative
+    position: relative;
+    overflow-x: hidden
 }
 ol, ul {
     margin: 0;
@@ -1959,7 +1960,8 @@ nav a:hover {
     font-size: 18px;
     color: #fff;
     font-weight: 200;
-    line-height: 24px!important
+    line-height: 24px!important;
+    overflow-y: scroll;
 }
 .content:hover .content-details {
     top: 50%;
