@@ -324,6 +324,36 @@ $(document).ready(function(){
                     map: map,
                     title: 'Oxford!'
                 });
+
+                var markerAB = new google.maps.Marker({
+                    position: new google.maps.LatLng(14.640939, -90.513475),
+                    map: map,
+                    title: 'Las 100 puertas!'
+                });
+
+                var markerAC = new google.maps.Marker({
+                    position: new google.maps.LatLng(21.1218994, -101.7360514),
+                    map: map,
+                    title: 'Leon!'
+                });
+
+                var markerAD = new google.maps.Marker({
+                    position: new google.maps.LatLng(19.54641, -99.1998606),
+                    map: map,
+                    title: 'Tlalnepantla!'
+                });
+
+                var markerAE = new google.maps.Marker({
+                    position: new google.maps.LatLng(20.6829193, -103.4740211),
+                    map: map,
+                    title: 'Zapopan!'
+                });
+
+                var markerAF = new google.maps.Marker({
+                    position: new google.maps.LatLng(20.6738377, -87.02536),
+                    map: map,
+                    title: 'Riviera Maya!'
+                });
             }
 
 
