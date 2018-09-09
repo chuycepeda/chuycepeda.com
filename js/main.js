@@ -354,6 +354,20 @@ $(document).ready(function(){
                     map: map,
                     title: 'Riviera Maya!'
                 });
+
+                var markerAF = new google.maps.Marker({
+                    position: new google.maps.LatLng(38.7436266, -9.1602032),
+                    map: map,
+                    title: 'Lisbon!'
+                });
+
+                var markerAF = new google.maps.Marker({
+                    position: new google.maps.LatLng(6.2686734, -75.6664321),
+                    map: map,
+                    title: 'Medellin!'
+                });
+
+                
             }
 
 
